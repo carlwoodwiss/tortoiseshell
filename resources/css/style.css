@@ -88,6 +88,7 @@ ul li {
   font-size: 2rem;
   line-height: 1.2;
   font-weight: bold;
+  margin-left: 220px;
 
 }
 
@@ -104,7 +105,11 @@ ul li {
   display: inline-flex;
   flex-direction: column;
   padding-right: 6rem;
+}
 
+.paper span {
+  text-align: center;
+  padding-top: 0.5rem;
 }
 
 .ruler {
@@ -113,9 +118,19 @@ ul li {
   padding-right: 6rem;
 }
 
+.ruler span {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
 .truck {
   display: inline-flex;
   flex-direction: column;
+}
+
+.truck span {
+  text-align: center;
+  padding-top: 0.5rem;
 }
 
 /*Philosophy and Appointments*/
