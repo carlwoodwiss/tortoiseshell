@@ -1,0 +1,188 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  background-color: black;
+}
+
+.content {
+  width: 1189px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: cadetblue;
+  font-size: 1rem;
+  color: white;
+  width: 960px;
+  height: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+header span {
+  padding-left: 1rem;
+  width: 100px;
+}
+
+header img {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.banner {
+  width: 100%;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+}
+
+.dontlook {
+  color: black;
+  background-color: white;
+  position: relative;
+  top: 15.5rem;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+ul {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+ul li {
+  padding-left: 2rem;
+}
+
+.looksee {
+  position: absolute;
+  top: 15.5rem;
+  padding: 1.5rem 5rem;
+  color: black;
+  background-color: white;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+
+}
+
+/* Images */
+
+.images {
+  padding-top: 3rem;
+  display: inline-flex;
+  flex-direction: row;
+
+}
+
+.paper {
+  display: inline-flex;
+  flex-direction: column;
+  padding-right: 6rem;
+
+}
+
+.ruler {
+  display: inline-flex;
+  flex-direction: column;
+  padding-right: 6rem;
+}
+
+.truck {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+/*Philosophy and Appointments*/
+
+.middlecontent {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5rem;
+
+}
+
+.philosophy {
+  display: inline-flex;
+  flex-direction: column;
+  width: 35%;
+  padding-right: 5rem;
+}
+
+.philosophy h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 10rem;
+}
+
+.appointments {
+  display: inline-flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.appointments h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 10rem;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: azure;
+  width: 960px;
+}
+
+footer span {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 1rem;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-left: 4rem;
+}
